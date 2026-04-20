@@ -1,0 +1,13 @@
+train: src/train/images
+val: src/validate/images
+test: src/test/images
+
+nc: 3
+names: ['Orange Dot', 'Red Dot', 'Yellow Dot']
+
+roboflow:
+  workspace: trainyourdragon
+  project: dots-jhi0l
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/trainyourdragon/dots-jhi0l/dataset/1
